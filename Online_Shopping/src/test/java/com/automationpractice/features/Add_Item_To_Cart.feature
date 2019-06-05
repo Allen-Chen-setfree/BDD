@@ -1,5 +1,5 @@
 
-@UnitTest, @FuctionTest
+@UnitTest @FuctionTest
 Feature: add item into shopping cart
 
 Background:

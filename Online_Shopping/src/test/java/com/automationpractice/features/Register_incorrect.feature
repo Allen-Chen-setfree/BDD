@@ -1,6 +1,6 @@
 
 
-@NegativeTest, @UnitTest
+@NegativeTest @UnitTest
 Feature: register an account
  
 Background:
