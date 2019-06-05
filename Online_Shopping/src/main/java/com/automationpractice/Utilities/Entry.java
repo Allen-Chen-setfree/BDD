@@ -11,7 +11,8 @@ import java.util.concurrent.TimeUnit;
 public class Entry {
 
         WebDriver webDriver;
-        UserAction action;
+        protected UserAction action;
+        protected HashMap<String,String> websites;
 
     public UserAction init() throws Exception {
         String browserName = System.getProperty("browserName");
@@ -22,6 +23,7 @@ public class Entry {
         webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         webDriver.manage().window().maximize();
+        websites = readProperty();
 
         action= new UserAction(webDriver);
         return action;
@@ -36,7 +38,6 @@ public class Entry {
         Properties properties = new Properties();
 
         try {
-//            properties.load(Entry.class.getResourceAsStream("websites.properties"));
             properties.load(new FileInputStream("src/main/resources/websites.properties"));
         } catch (Exception e) {
 

@@ -16,6 +16,10 @@ formatter.feature({
     }
   ]
 });
+formatter.before({
+  "duration": 25496096638,
+  "status": "passed"
+});
 formatter.background({
   "line": 5,
   "name": "",
@@ -33,7 +37,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 8,
-  "name": "I am on the Summer Dresses page: \"Summer_Dresses\"",
+  "name": "I am on the \"Summer_Dresses\" page",
   "keyword": "Given "
 });
 formatter.step({
@@ -55,13 +59,13 @@ formatter.match({
   "arguments": [
     {
       "val": "Summer_Dresses",
-      "offset": 34
+      "offset": 13
     }
   ],
-  "location": "SummerDressessSteps.i_am_on_the_page(String)"
+  "location": "Steps.i_am_on_the_page(String)"
 });
 formatter.result({
-  "duration": 44920876283,
+  "duration": 8206288810,
   "status": "passed"
 });
 formatter.match({
@@ -71,10 +75,10 @@ formatter.match({
       "offset": 7
     }
   ],
-  "location": "SummerDressessSteps.i_add(String)"
+  "location": "Steps.i_add(String)"
 });
 formatter.result({
-  "duration": 5297362373,
+  "duration": 1761671081,
   "status": "passed"
 });
 formatter.match({
@@ -84,10 +88,10 @@ formatter.match({
       "offset": 30
     }
   ],
-  "location": "SummerDressessSteps.i_should_see_the_info_window(String)"
+  "location": "Steps.i_should_see_the_info_window(String)"
 });
 formatter.result({
-  "duration": 2312815980,
+  "duration": 2187549234,
   "status": "passed"
 });
 formatter.match({
@@ -97,10 +101,14 @@ formatter.match({
       "offset": 1
     }
   ],
-  "location": "SummerDressessSteps.one_such_item_is_added_to_card(int)"
+  "location": "Steps.one_such_item_is_added_to_card(int)"
 });
 formatter.result({
-  "duration": 7600969998,
+  "duration": 25505743,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 5399306381,
   "status": "passed"
 });
 });

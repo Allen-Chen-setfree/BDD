@@ -10,34 +10,56 @@
         "keyword": "Background"
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 25496096638,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.startBrowser()"
+            }
+          }
+        ],
         "line": 7,
         "name": "add \"Printed Chiffon Dress\" to cart",
         "description": "",
         "id": "add-item-into-shopping-cart;add-\"printed-chiffon-dress\"-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 5399306381,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.closeBrowser()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 44920876283,
+              "duration": 8206288810,
               "status": "passed"
             },
             "line": 8,
-            "name": "I am on the Summer Dresses page: \"Summer_Dresses\"",
+            "name": "I am on the \"Summer_Dresses\" page",
             "match": {
               "arguments": [
                 {
                   "val": "Summer_Dresses",
-                  "offset": 34
+                  "offset": 13
                 }
               ],
-              "location": "SummerDressessSteps.i_am_on_the_page(String)"
+              "location": "Steps.i_am_on_the_page(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5297362373,
+              "duration": 1761671081,
               "status": "passed"
             },
             "line": 9,
@@ -49,13 +71,13 @@
                   "offset": 7
                 }
               ],
-              "location": "SummerDressessSteps.i_add(String)"
+              "location": "Steps.i_add(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2312815980,
+              "duration": 2187549234,
               "status": "passed"
             },
             "line": 10,
@@ -67,13 +89,13 @@
                   "offset": 30
                 }
               ],
-              "location": "SummerDressessSteps.i_should_see_the_info_window(String)"
+              "location": "Steps.i_should_see_the_info_window(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7600969998,
+              "duration": 25505743,
               "status": "passed"
             },
             "line": 11,
@@ -85,7 +107,7 @@
                   "offset": 1
                 }
               ],
-              "location": "SummerDressessSteps.one_such_item_is_added_to_card(int)"
+              "location": "Steps.one_such_item_is_added_to_card(int)"
             },
             "keyword": "And "
           }

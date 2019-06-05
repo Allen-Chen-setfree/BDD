@@ -8,6 +8,6 @@ import cucumber.api.junit.Cucumber;
 features = {"C:/Users/setfree/Documents/project/BDD/Online_Shopping/src/test/java/com/automationpractice/features/Register_correct.feature"},
 plugin = {"json:target/cucumber-parallel/2.json", "html:target/cucumber-parallel/2.html"},
 monochrome = false,
- tags = {"@FuctionTest"}, glue = { "com.automationpractice.stepdefs" })
+ tags = {"@UnitTest"}, glue = { "com.automationpractice.stepdefs" })
 public class Parallel02IT {
 }
