@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3d8147b-a325-4b79-9d57-b9b81dd572c8" name="Default" comment="add BDD project to test online shopping">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/BDD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Jenkins_screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Online_Shopping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/[Help" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/SignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/SummerDresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ChromeDriver/v74/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ChromeDriver/v74/chromedriver_win32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FirefoxDriver/v0.24/geckodriver-v0.24.0-win64.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/FirefoxDriver/v0.24/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/websites.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/Helper/TestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Add_Item_To_Cart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_correct.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_incorrect.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/SignInSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/SummerDressessSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/testRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ChromeDriver/v74/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ChromeDriver/v74/chromedriver_win32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FirefoxDriver/v0.24/geckodriver-v0.24.0-win64.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FirefoxDriver/v0.24/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/DriverFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/PageObject/Base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/PageObject/Home.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/PageObject/RegisterPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/PageObject/SignIn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/PageObject/SummerDresses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/Utilities/Entry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/automationpractice/Utilities/UserAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/websites.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel02IT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel03IT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Parallel01IT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Parallel02IT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Parallel03IT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/automationpractice/Helper/TestContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/automationpractice/stepdefs/SignInSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/automationpractice/stepdefs/SummerDressessSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/automationpractice/unitTests/testRunner.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Online_Shopping" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/testRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register_correct.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_correct.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register_incorrect.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_incorrect.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add_Item_To_Cart.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/features/Add_Item_To_Cart.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignInSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/SignInSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/Entry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>And click button to add it into cart</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\setfree\Documents\project\belong\Online_Shopping\target\site1</dir>
+      <dir>C:\Users\setfree\Documents\project\belong\Online_Shopping\src\main\resources\ChromeDriver\v74\v74</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../qtest/qtest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../selenium/broker" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../selenium/poc" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/Register.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/SignIn.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/testSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/ObjectUtilities/navToHomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/ObjectUtilities/entry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/ObjectUtilities/Entry.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/Register_correctEmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/Register_incorrectEmail.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/testRunner1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/Home.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/Entry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/ObjectUtilities/Action.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/ObjectUtilities/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/websites.properties" />
+        <option value="$PROJECT_DIR$/Input/websites.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/Base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/BaseSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/AddtoCart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/Register.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/SummerDresses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Register_incorrect.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Register_correct.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Add_Item_To_Cart.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/Helper/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/testRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/SummerDressessSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/SignInSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/Entry.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_incorrect.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_correct.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Add_Item_To_Cart.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automationpractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online_Shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online_Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automationpractice" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.automationpractice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\setfree\Documents\project\belong\Online_Shopping\src\test\java\com\automationpractice\features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.automationpractice.unitTests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\setfree\Documents\project\belong\Online_Shopping\src\test\java\com\automationpractice" />
+      <recent name="C:\Users\setfree\Documents\project\belong\Online_Shopping\src\test\resources" />
+      <recent name="C:\Users\setfree\Documents\project\belong\Online_Shopping\src\main\resources" />
+      <recent name="C:\Users\setfree\Documents\project\belong\Online_Shopping\src\main\resources\FirefoxDriver" />
+      <recent name="C:\Users\setfree\Documents\project\belong\Online_Shopping\src\main\resources\ChromeDriver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.testRunner">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Register_correctEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Online_Shopping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automationpractice.unitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.automationpractice.unitTests" />
+      <option name="MAIN_CLASS_NAME" value="com.automationpractice.unitTests.Register_correctEmail" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Register_incorrectEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Online_Shopping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automationpractice.unitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.automationpractice.unitTests" />
+      <option name="MAIN_CLASS_NAME" value="com.automationpractice.unitTests.Register_incorrectEmail" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Online_Shopping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automationpractice.unitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.automationpractice.unitTests" />
+      <option name="MAIN_CLASS_NAME" value="com.automationpractice.unitTests.testRunner" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Online_Shopping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automationpractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.automationpractice" />
+      <option name="MAIN_CLASS_NAME" value="com.automationpractice.testSuite" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Register.feature" type="substepsFeature" factoryName="Substeps Feature" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="" />
+      <option name="model">
+        <SubstepsRunnerConfigurationModel>
+          <option name="classPathString" />
+          <option name="homePath" />
+          <option name="modulePath" value="$PROJECT_DIR$/Online_Shopping.iml" />
+          <option name="myListener" />
+          <option name="nonStrictKeywordPrecedence" />
+          <option name="pathToFeature" value="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register.feature" />
+          <option name="scenarioName" />
+          <option name="stepImplentationClassNames">
+            <array />
+          </option>
+          <option name="strict" value="false" />
+          <option name="subStepDefinitionDirectory" />
+          <option name="tags" />
+          <option name="versionString" />
+          <option name="workingDir" value="$PROJECT_DIR$" />
+        </SubstepsRunnerConfigurationModel>
+      </option>
+      <option name="classPathString" />
+      <option name="homePath" />
+      <option name="modulePath" value="$PROJECT_DIR$/Online_Shopping.iml" />
+      <option name="myListener" />
+      <option name="nonStrictKeywordPrecedence" />
+      <option name="pathToFeature" value="$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register.feature" />
+      <option name="scenarioName" />
+      <option name="stepImplentationClassNames">
+        <array />
+      </option>
+      <option name="strict" value="false" />
+      <option name="subStepDefinitionDirectory" />
+      <option name="tags" />
+      <option name="versionString" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.testRunner" />
+      <item itemvalue="Substeps Feature.Register.feature" />
+      <item itemvalue="JUnit.Register_incorrectEmail" />
+      <item itemvalue="JUnit.testSuite" />
+      <item itemvalue="JUnit.Register_correctEmail" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Register_incorrectEmail" />
+        <item itemvalue="JUnit.testSuite" />
+        <item itemvalue="JUnit.Register_correctEmail" />
+        <item itemvalue="Substeps Feature.Register.feature" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3d8147b-a325-4b79-9d57-b9b81dd572c8" name="Default" comment="" />
+      <created>1559446317445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559446317445</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add BDD project to test online shopping">
+      <created>1559737442221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559737442221</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="testRunner - 2019.06.05 at 14h 57m 28s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 14h 59m 18s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 15h 36m 46s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 15h 37m 53s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 15h 39m 36s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 20h 40m 58s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 20h 43m 28s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 20h 46m 34s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 20h 47m 32s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testRunner - 2019.06.05 at 21h 22m 02s.xml">
+      <configuration name="testRunner" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.17134416" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.30428362" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3589365" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3308715" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.30764076" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41211227" />
+      <window_info id="Favorites" order="5" sideWeight="0.5015015" side_tool="true" weight="0.3036193" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.50812405" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984985" visible="true" weight="0.3036193" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.17134416" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5376662" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.44756278" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.041358937" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info id="Favorites" order="5" sideWeight="0.5015015" side_tool="true" visible="true" weight="0.3036193" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add BDD project to test online shopping" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BDD project to test online shopping" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="35" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="action" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.getClass().getResourceAsStream(&quot;C:\\Users\\setfree\\Documents\\project\\belong\\Online_Shopping\\src\\main\\resources\\websites.properties&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.getClass().getResourceAsStream(&quot;websites.properties&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getClass().getResource(&quot;/ChromeDriver/v74/chromedriver.exe&quot;).toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>action.scrollToElementView(Object_item)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.quit();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.close();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(By.id(&quot;page&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>By.partialLinkText(&quot;Printed Chiffon Dress&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register.java" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.automationpractice.TestRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/com.automationpractice.TestRunner.txt" />
+    <entry file="file://$PROJECT_DIR$/target/site/cucumber-pretty/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/Parameterized.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="142" column="22" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/_ 123test@124.com _.txt" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/automationpractice/unitTests/Register_correctEmail.class" />
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/com.automationpractice.unitTests.Register_correctEmail.txt" />
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Parallel02IT.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-test-sources/cucumber/Parallel01IT.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/Register_incorrectEmail.java" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Parallel01IT.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/Register_correctEmail.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/testSuite.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="263" column="20" lean-forward="true" selection-start-line="263" selection-start-column="15" selection-end-line="263" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/ObjectUtilities/Constant.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="339" column="29" selection-start-line="339" selection-start-column="29" selection-end-line="339" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/websites.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Action.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Timeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/JavaHookDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/model/CucumberScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/BaseSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/AddtoCart.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="239" column="49" selection-start-line="239" selection-start-column="48" selection-end-line="239" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/SummerDresses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/PageObject/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="89" selection-start-line="89" selection-start-column="2" selection-end-line="89" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/Helper/TestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/DriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/automationpractice/Utilities/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/SummerDressessSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefs/SignInSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/unitTests/testRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_correct.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/features/Register_incorrect.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/automationpractice/features/Add_Item_To_Cart.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Online_Shopping</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:1.3.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
