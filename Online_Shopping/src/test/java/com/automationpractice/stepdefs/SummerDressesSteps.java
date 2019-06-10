@@ -9,13 +9,13 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 
-public class SummerDressessSteps {
+public class SummerDressesSteps {
 
-    TestContext testContext;
-    SummerDresses summerDressesPage;
-    Entry entry;
+    private final TestContext testContext;
+    private SummerDresses summerDressesPage;
+    private final Entry entry;
 
-    public SummerDressessSteps(TestContext context){
+    public SummerDressesSteps(TestContext context){
         testContext=context;
         entry=context.getEntry();
     }
@@ -28,18 +28,18 @@ public class SummerDressessSteps {
         );
     }
     @When("^I add \"([^\"]*)\" into cart$")
-    public void i_add(String itemName) throws Throwable {
+    public void i_add(String itemName) {
         summerDressesPage.moveToItem(itemName).addToCart();
     }
 
     @Then("^I should see the info window \"([^\"]*)\"$")
-    public void i_should_see_the_info_window(String msg) throws Throwable {
-        String actMsg = summerDressesPage.fectchMsgAfterAddItem();
+    public void i_should_see_the_info_window(String msg) {
+        String actMsg = summerDressesPage.fetchMsgAfterAddItem();
         Assert.assertEquals(msg,actMsg);
     }
 
     @Then("^\"([^\"]*)\" such item is added to card$")
-    public void one_such_item_is_added_to_card(int quantity) throws Throwable {
+    public void one_such_item_is_added_to_card(int quantity) {
         int actQuantity = summerDressesPage.getNoAfterAddItem();
         Assert.assertEquals(quantity,actQuantity);
         entry.closeTab();

@@ -8,7 +8,7 @@ public class SignIn {
     private final By Obj_emailCreate_input = By.id("email_create");
     private final By Obj_submitCreate_button = By.id("SubmitCreate");
 
-    UserAction action;
+    private final UserAction action;
     public SignIn( UserAction action) {
         this.action = action;
     }

@@ -11,7 +11,7 @@ import java.time.Duration;
 import java.util.function.Function;
 
 public class UserAction {
-    WebDriver driver;
+    private final WebDriver driver;
 
     public UserAction(WebDriver driver) {
         this.driver = driver;
@@ -26,13 +26,13 @@ public class UserAction {
         return this;
     }
 
-    public UserAction input (By locater, String value) {
-        driver.findElement(locater).sendKeys(value);
+    public UserAction input (By locator, String value) {
+        driver.findElement(locator).sendKeys(value);
         return this;
     }
 
-    public UserAction click (By locater) {
-        driver.findElement(locater).click();
+    public UserAction click (By locator) {
+        driver.findElement(locator).click();
         return this;
     }
 

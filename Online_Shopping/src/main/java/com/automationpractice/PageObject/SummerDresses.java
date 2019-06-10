@@ -7,10 +7,10 @@ public class SummerDresses implements Base{
 
 
     private final By Obj_addToCart_button = By.linkText("Add to cart");
-    private String item_link = "//*[@class='product-container']//*[contains(text(),'keyword')]";
+    private final String item_link = "//*[@class='product-container']//*[contains(text(),'keyword')]";
     private final By Obj_addMsg_text = By.xpath(CART_PRODUCT + "/h2");
     private final By Obj_quantityAdded_text = By.xpath(CART_PRODUCT + "//*[text()='Quantity']/following-sibling::span");
-    UserAction action;
+    private final UserAction action;
 
     public SummerDresses(UserAction action) {
         this.action = action;
@@ -30,7 +30,7 @@ public class SummerDresses implements Base{
         return this;
     }
 
-    public String fectchMsgAfterAddItem() throws InterruptedException {
+    public String fetchMsgAfterAddItem() {
         action.waitTillVisibility(Obj_addMsg_text,10);
         action.waitTillValueFilled(Obj_addMsg_text,10);
         return action.getText(Obj_addMsg_text);

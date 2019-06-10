@@ -8,10 +8,11 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+@SuppressWarnings("unchecked")
 public class Entry {
 
-        WebDriver webDriver;
-        UserAction action;
+        private WebDriver webDriver;
+        private UserAction action;
 
     public UserAction init() throws Exception {
         String browserName = System.getProperty("browserName");
@@ -36,7 +37,6 @@ public class Entry {
         Properties properties = new Properties();
 
         try {
-//            properties.load(Entry.class.getResourceAsStream("websites.properties"));
             properties.load(new FileInputStream("src/main/resources/websites.properties"));
         } catch (Exception e) {
 
