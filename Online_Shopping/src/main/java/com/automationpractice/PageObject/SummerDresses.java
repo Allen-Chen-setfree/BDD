@@ -3,7 +3,6 @@ package com.automationpractice.PageObject;
 import com.automationpractice.Utilities.UserAction;
 import org.openqa.selenium.By;
 
-
 public class SummerDresses implements Base{
 
 
@@ -32,8 +31,8 @@ public class SummerDresses implements Base{
     }
 
     public String fectchMsgAfterAddItem() throws InterruptedException {
-        action.waitTillVisibility(Obj_addMsg_text,20);
-        Thread.sleep(2000);
+        action.waitTillVisibility(Obj_addMsg_text,10);
+        action.waitTillValueFilled(Obj_addMsg_text,10);
         return action.getText(Obj_addMsg_text);
     }
 
