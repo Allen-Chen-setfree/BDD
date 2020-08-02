@@ -1,0 +1,163 @@
+
+1. Execute with browser type and tag: 
+mvn clean test -Dtest=testRunner -Dcucumber.options="--tags @FuctionTest"  -DbrowserName=chrome
+
+D:\project\BDD\Online_Shopping>mvn clean test -Dtest=testRunner -Dcucumber.options="--tags @FuctionTest" -DbrowserName=chrome
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Online_Shopping 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Online_Shopping ---
+[INFO] Deleting D:\project\BDD\Online_Shopping\target
+[INFO]
+[INFO] --- cucumber-jvm-parallel-plugin:2.2.0:generateRunners (generateRunners) @ Online_Shopping ---
+[INFO] Adding D:\project\BDD\Online_Shopping\target\generated-test-sources\cucumber to test-compile source root
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Online_Shopping ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Online_Shopping ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to D:\project\BDD\Online_Shopping\target\classes
+[WARNING] /D:/project/BDD/Online_Shopping/src/main/java/com/automationpractice/Utilities/Entry.java: D:\project\BDD\Online_Shopping\src\main\java\com\automationpractice\Utilities\Entry.java使用了未经检查或不安全的操作。
+[WARNING] /D:/project/BDD/Online_Shopping/src/main/java/com/automationpractice/Utilities/Entry.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Online_Shopping ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Online_Shopping ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to D:\project\BDD\Online_Shopping\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Online_Shopping ---
+[INFO] Surefire report directory: D:\project\BDD\Online_Shopping\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.automationpractice.unitTests.testRunner
+@UnitTest @FuctionTest
+Feature: add item into shopping cart
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 23207
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+八月 02, 2020 11:35:30 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+
+  Background:  # Add_Item_To_Cart.feature:5
+
+  Scenario: add "Printed Chiffon Dress" to cart                                          # Add_Item_To_Cart.feature:7
+    Given I am on the "Summer_Dresses" page                                              # Steps.i_am_on_the_page(String)
+    When I add "Printed Chiffon Dress" into cart                                         # Steps.i_add(String)
+    Then I should see the info window "Product successfully added to your shopping cart" # Steps.i_should_see_the_info_window(String)
+    And "1" such item is added to card                                                   # Steps.one_such_item_is_added_to_card(int)
+
+1 Scenarios (1 passed)
+4 Steps (4 passed)
+0m21.321s
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.496 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 34.669 s
+[INFO] Finished at: 2020-08-02T11:35:44+10:00
+[INFO] Final Memory: 18M/146M
+[INFO] ------------------------------------------------------------------------
+
+
+2. Parallel execution (branch: parallel) 
+mvn  -Dtest=anyTest -Dcucumber.options="--tags @UnitTest" -DfailIfNoTests=false -DbrowserName=firefox verify
+
+D:\project\BDD\Online_Shopping>mvn  -Dtest=anyTest -Dcucumber.options="--tags @UnitTest" -DfailIfNoTests=false -DbrowserName=firefox verify
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Online_Shopping 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- cucumber-jvm-parallel-plugin:2.2.0:generateRunners (generateRunners) @ Online_Shopping ---
+[INFO] Adding D:\project\BDD\Online_Shopping\target\generated-test-sources\cucumber to test-compile source root
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Online_Shopping ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Online_Shopping ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Online_Shopping ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Online_Shopping ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to D:\project\BDD\Online_Shopping\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Online_Shopping ---
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Online_Shopping ---
+[INFO]
+[INFO] --- maven-failsafe-plugin:2.19.1:integration-test (acceptance-test) @ Online_Shopping ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+1 Scenarios (1 passed)
+4 Steps (4 passed)
+0m34.278s
+
+Running | test123.com |
+1596333727073   geckodriver     INFO    Listening on 127.0.0.1:464601596333728245       mozrunner::runner       INFO    Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\setfree\\AppData\\Local\\Temp\\rust_mozprofilejUGCMO"1596333729764       addons.webextension.doh-rollout@mozilla.org     WARN
+八月 02, 2020 12:02:26 下午 org.openqa.selenium.remote.ProtocolHandshake createSessions sessiontory.ts@mozilla.org': Reading manifest: Invalid extension permission: about:reader*f.js/
+信息: Detected dialect: W3C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cTests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.271 sec - in | test123.com |
+Running | test124@123.com |
+1596333726964   geckodriver     INFO    Listening on 127.0.0.1:156221596333728089       mozrunner::runner       INFO    Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\setfree\\AppData\\Local\\Temp\\rust_mozprofileGjIv6d"1596333729652       addons.webextension.doh-rollout@mozilla.org     WARN
+八月 02, 2020 12:02:28 下午 org.openqa.selenium.remote.ProtocolHandshake createSessions sessiontory.ts@mozilla.org': Reading manifest: Invalid extension permission: about:reader*f.js/
+信息: Detected dialect: W3C
+###!!! [Child][RunMessage] Error: Channel closing: too late to seTests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.492 sec - in | test124@123.com |
+
+1 Scenarios (1 passed)
+4 Steps (4 passed)
+0m38.375s
+
+Running Scenario: add "Printed Chiffon Dress" to cart
+1596333727013   geckodriver     INFO    Listening on 127.0.0.1:153821596333727892       mozrunner::runner       INFO    Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\setfree\\AppData\\Local\\Temp\\rust_mozprofileBZEgbj"1596333730163       addons.webextension.doh-rollout@mozilla.org     WARN
+八月 02, 2020 12:02:26 下午 org.openqa.selenium.remote.ProtocolHandshake createSessions sessiontory.ts@mozilla.org': Reading manifest: Invalid extension permission: about:reader*f.js/
+信息: Detected dialect: W3C
+###!!! [Child][RunMessage] Error: Channel closing: too late to seTests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.781 sec - in Scenario: add "Printed Chiffon Dress" to cart
+
+2 Scenarios (2 passed)
+8 Steps (8 passed)
+0m48.710s
+
+Running | 123test@124.com |
+1596333759120   geckodriver     INFO    Listening on 127.0.0.1:249711596333759380       mozrunner::runner       INFO    Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\setfree\\AppData\\Local\\Temp\\rust_mozprofileDN34v3"1596333760502       addons.webextension.doh-rollout@mozilla.org     WARN
+八月 02, 2020 12:02:45 下午 org.openqa.selenium.remote.ProtocolHandshake createSessions sessiontory.ts@mozilla.org': Reading manifest: Invalid extension permission: about:reader*f.js/
+信息: Detected dialect: W3C
+###!!! [Child][RunMessage] Error: Channel closing: too late to seTests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.747 sec - in | 123test@124.com |
+
+Results :
+
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING] File encoding has not been set, using platform encoding GBK, i.e. build is platform dependent! The file encoding for reports output files should be provided by the POM property ${project.reporting.outputEncoding}.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:01 min
+[INFO] Finished at: 2020-08-02T12:02:52+10:00
+[INFO] Final Memory: 19M/143M
+[INFO] ------------------------------------------------------------------------
