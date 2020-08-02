@@ -26,13 +26,13 @@ public class DriverFactory {
     }
 
     private WebDriver openFirefoxInstance() {
-        System.setProperty("webdriver.gecko.driver","src/main/resources/FirefoxDriver/v0.24/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","src/main/resources/FirefoxDriver/v0.27/geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         return driver;
 
     }
     private WebDriver openChromeInstance() {
-        System.setProperty("webdriver.chrome.driver","src/main/resources/ChromeDriver/v74/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/main/resources/ChromeDriver/v84/chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         WebDriver driver = new ChromeDriver(chromeOptions);
         return  driver;
