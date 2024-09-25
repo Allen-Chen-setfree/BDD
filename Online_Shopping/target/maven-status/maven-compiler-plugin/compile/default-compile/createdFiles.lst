@@ -1,8 +1,0 @@
-com\automationpractice\Utilities\Entry.class
-com\automationpractice\Utilities\UserAction.class
-com\automationpractice\DriverFactory.class
-com\automationpractice\PageObject\RegisterPage.class
-com\automationpractice\PageObject\Base.class
-com\automationpractice\PageObject\Home.class
-com\automationpractice\PageObject\SummerDresses.class
-com\automationpractice\PageObject\SignIn.class
